@@ -2685,7 +2685,7 @@ class SignalSpec: QuickSpec {
 				expect(event).to(beNil())
 			}
 
-			it("sould available to use contextual lookup") {
+			it("should available to use contextual lookup") {
 				_ = Signal<Int, NoError>.empty
 					.withLatest(from: .init(value: 0))
 			}

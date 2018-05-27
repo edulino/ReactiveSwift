@@ -662,11 +662,11 @@ class PropertySpec: QuickSpec {
 						expect(signalInterrupted) == true
 					}
 
-					it("sould available to use contextual lookup") {
+					it("should available to use contextual lookup") {
 						_ = Property(initial: 0, then: .init(value: 0))
 					}
 
-					it("sould available to use contextual lookup for optional value") {
+					it("should available to use contextual lookup for optional value") {
 						_ = Property(initial: Optional(0), then: .init(value: 0))
 					}
 				}
